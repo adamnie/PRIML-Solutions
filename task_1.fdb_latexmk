@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1490049668 "task_1.tex" "/home/adam/git/PRIML-Solutions/task_1.pdf" "task_1" 1490049668
+["pdflatex"] 1490050833 "task_1.tex" "/home/adam/git/PRIML-Solutions/task_1.pdf" "task_1" 1490050834
   "/etc/texmf/web2c/texmf.cnf" 1487095956 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/adam/git/PRIML-Solutions/task_1.aux" 1490049668 499 1ff013db72adf3db9fce936638c8f733 ""
+  "/home/adam/git/PRIML-Solutions/task_1.aux" 1490050833 573 c0e94ca26a7208d8d942c0a9faf71a70 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1136849721 2005 f094775651a1386335c158fb632529f1 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc" 1136849721 2468 3f9e2f3088bcf5b581dfc367d71e7d95 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1136849721 1944 1845592c00bbe510359fd6887a83ff72 ""
@@ -70,11 +70,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1487447460 133930 e5c417b0676d587895fd4cc3be6ba554 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1487447463 771902 b21a13a4c6a1ba79dce994a850e7f953 ""
-  "task_1.aux" 1490049668 499 1ff013db72adf3db9fce936638c8f733 ""
-  "task_1.tex" 1490049667 892 ef7a488d25be4f34bcbcb866298803dd ""
+  "task_1.aux" 1490050833 573 c0e94ca26a7208d8d942c0a9faf71a70 ""
+  "task_1.tex" 1490050832 1359 cfba5debcd58e11648d45e741b90a5fd ""
   (generated)
-  "/home/adam/git/PRIML-Solutions/task_1.pdf"
-  "/home/adam/git/PRIML-Solutions/task_1.log"
-  "task_1.log"
-  "task_1.pdf"
   "task_1.aux"
+  "task_1.log"
+  "/home/adam/git/PRIML-Solutions/task_1.pdf"
+  "task_1.pdf"
+  "/home/adam/git/PRIML-Solutions/task_1.log"
