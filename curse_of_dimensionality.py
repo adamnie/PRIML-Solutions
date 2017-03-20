@@ -43,7 +43,7 @@ def plot_average_distance_and_std_of_points_in_cube(num_dimensions=10,
     plt.xlabel("Dimension")
     plt.show()
 
-def plot_how_many_point_in_ball_on_average(num_dimensions=10,
+def plot_how_many_points_in_ball_on_average(num_dimensions=10,
                                            num_points=10000, num_runs=10):
     dims = range(1, num_dimensions)
     averaged_ball_share = []
@@ -63,5 +63,5 @@ def plot_how_many_point_in_ball_on_average(num_dimensions=10,
 
 
 
-# plot_how_many_point_in_ball_on_average()
+plot_how_many_points_in_ball_on_average()
 plot_average_distance_and_std_of_points_in_cube()
