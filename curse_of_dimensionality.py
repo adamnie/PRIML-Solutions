@@ -1,5 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import scipy.spatial
+
 
 CUBE_SIZE = 2.0
 BALL_RADIUS = 1.0
@@ -17,7 +19,8 @@ def how_many_points_in_ball_in_percent(points):
     return 100 * num_points_in_ball / num_points_in_cube
 
 def std_and_average_distance_between_points(points):
-    distances = [np.linalg.norm(np.array(p_1)-np.array(p_2)) for p_1 in points for p_2 in points]
+    # distances = [np.linalg.norm(np.array(p_1)-np.array(p_2)) for p_1 in points for p_2 in points]
+    distances = scipy.spatial.distance.cdist(points, points, metric='euclidean').flatten()
     distances = list(filter(lambda a: a != 0.0, distances))
     return (np.average(distances), np.std(distances))
 
@@ -63,5 +66,5 @@ def plot_how_many_points_in_ball_on_average(num_dimensions=10,
 
 
 
-plot_how_many_points_in_ball_on_average()
+# plot_how_many_points_in_ball_on_average()
 plot_average_distance_and_std_of_points_in_cube()
