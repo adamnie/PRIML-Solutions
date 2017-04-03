@@ -66,5 +66,5 @@ def plot_how_many_points_in_ball_on_average(num_dimensions=10,
 
 
 
-# plot_how_many_points_in_ball_on_average()
+plot_how_many_points_in_ball_on_average()
 plot_average_distance_and_std_of_points_in_cube()
