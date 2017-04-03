@@ -64,13 +64,14 @@ sub22.set_title('Linear dataset no PCA')
 sub22.plot(asc_dataset[:, x], asc_dataset[:, y], '+r')
 sub22.plot(desc_dataset[:, x], desc_dataset[:, y], '+b')
 
-kpca = KernelPCA(kernel="rbf", n_components=2, gamma=0.1)
+kpca_circle = KernelPCA(kernel="rbf", n_components=2, gamma=0.08)
+kpca_linear = KernelPCA(kernel="rbf", n_components=2, gamma=15)
 
-KPCA_circle = kpca.fit_transform(joined_circle)
-KPCA_linear = kpca.fit_transform(joined_linear)
+KPCA_circle = kpca_circle.fit_transform(joined_circle)
+KPCA_linear = kpca_linear.fit_transform(joined_linear)
 
 sub23 = fig2.add_subplot(223)
-sub23.set_title('Circular dataset kernel PCA')
+sub23.set_title('Circular dataset rbf kernel PCA')
 sub23.plot(KPCA_circle[NUM_EXMPL:, x], KPCA_circle[NUM_EXMPL:, y], '+r')
 sub23.plot(KPCA_circle[:NUM_EXMPL, x], KPCA_circle[:NUM_EXMPL, y], '+b')
 
@@ -79,4 +80,36 @@ sub24.set_title('Linear dataset kernel PCA')
 sub24.plot(KPCA_linear[NUM_EXMPL:, x], KPCA_linear[NUM_EXMPL:, y], '+r')
 sub24.plot(KPCA_linear[:NUM_EXMPL, x], KPCA_linear[:NUM_EXMPL, y], '+b')
 
+fig3 = plt.figure()
+sub31 = fig3.add_subplot(221)
+sub31.set_title('Circular dataset no PCA')
+sub31.plot(circle_dataset[:, x], circle_dataset[:, y], '+r')
+sub31.plot(ring_dataset[:, x], ring_dataset[:, y], '+b')
+
+sub32 = fig3.add_subplot(222)
+sub32.set_title('Linear dataset no PCA')
+sub32.plot(asc_dataset[:, x], asc_dataset[:, y], '+r')
+sub32.plot(desc_dataset[:, x], desc_dataset[:, y], '+b')
+
+kpca_circle = KernelPCA(kernel="cosine", n_components=2, gamma=7.5)
+kpca_linear = KernelPCA(kernel="cosine", n_components=2, gamma=0.1)
+
+KPCA_circle = kpca_circle.fit_transform(joined_circle)
+KPCA_linear = kpca_linear.fit_transform(joined_linear)
+
+sub33 = fig3.add_subplot(223)
+sub33.set_title('Circular dataset cosine kernel PCA')
+sub33.plot(KPCA_circle[NUM_EXMPL:, x], KPCA_circle[NUM_EXMPL:, y], '+r')
+sub33.plot(KPCA_circle[:NUM_EXMPL, x], KPCA_circle[:NUM_EXMPL, y], '+b')
+
+sub34 = fig3.add_subplot(224)
+sub34.set_title('Linear dataset cosine kernel PCA')
+sub34.plot(KPCA_linear[NUM_EXMPL:, x], KPCA_linear[NUM_EXMPL:, y], '+r')
+sub34.plot(KPCA_linear[:NUM_EXMPL, x], KPCA_linear[:NUM_EXMPL, y], '+b')
+
 plt.show()
+
+from the_search_of_proper_gamma import GammaSearcher
+
+gamma_searcher = GammaSearcher(0, 20, 0.01, joined_circle)
+gamma_searcher.run()
