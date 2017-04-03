@@ -53,8 +53,6 @@ sub4.plot(pca_linear[NUM_EXMPL:, x], pca_linear[NUM_EXMPL:, y], '+b')
 # kernel tricks
 from sklearn.decomposition import KernelPCA
 
-
-
 fig2 = plt.figure()
 sub21 = fig2.add_subplot(221)
 sub21.set_title('Circular dataset no PCA')
@@ -66,7 +64,7 @@ sub22.set_title('Linear dataset no PCA')
 sub22.plot(asc_dataset[:, x], asc_dataset[:, y], '+r')
 sub22.plot(desc_dataset[:, x], desc_dataset[:, y], '+b')
 
-kpca = KernelPCA(kernel="rbf")
+kpca = KernelPCA(kernel="rbf", n_components=2, gamma=0.1)
 
 KPCA_circle = kpca.fit_transform(joined_circle)
 KPCA_linear = kpca.fit_transform(joined_linear)

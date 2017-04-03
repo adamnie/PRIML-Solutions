@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c010cc-dbf2-48ae-8a99-18300b4fb628" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment 2/dataset_generator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment 2/main_datasets.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/condensed_nearest_neighbours.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/condensed_nearest_neighbours/condensed_nearest_neighbours.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/curse_of_dimensionality.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/curse_of_dimensionality/curse_of_dimensionality.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task_1.fdb_latexmk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task_1.fls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task_1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/task_1.tex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/visualisation_util.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment 2/main_datasets.py" afterPath="$PROJECT_DIR$/assignment 2/main_datasets.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +30,8 @@
       <file leaf-file-name="main_datasets.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment 2/main_datasets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="311">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -64,7 +53,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="-1301" />
     <option name="y" value="-4" />
     <option name="width" value="1301" />
     <option name="height" value="772" />
@@ -252,7 +241,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="-1301" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18754804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -319,8 +308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment 2/main_datasets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="311">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
