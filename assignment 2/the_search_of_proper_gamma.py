@@ -8,9 +8,7 @@ y_ax = 1
 
 class GammaSearcher():
 
-    def __init__(self, gamma_start, gamma_end, gamma_step, dataset, num=1000):
-        self.gamma_start = gamma_start
-        self.gamma_end = gamma_end
+    def __init__(self, gamma_start, gamma_step, dataset, num=1000):
         self.gamma_step = gamma_step
         self.dataset = dataset
         self.gamma = gamma_start

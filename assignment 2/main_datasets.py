@@ -111,5 +111,5 @@ plt.show()
 
 from the_search_of_proper_gamma import GammaSearcher
 
-gamma_searcher = GammaSearcher(0, 20, 0.01, joined_circle)
+gamma_searcher = GammaSearcher(5, 1.5, joined_circle)
 gamma_searcher.run()
