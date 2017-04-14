@@ -32,7 +32,7 @@ def get_silhouette_scores(data, init, max_iter=20, num_runs=10):
             kmeans = KMeans(n_clusters=k, init=init, max_iter=num_iterations, n_init=1).fit(data_set)
             scores.append(silhouette_score(data_set, kmeans.labels_))
         silhouette_scores.append(scores)
-    print('... finished.')
+    print('...finished.')
     return silhouette_scores
 
 radius = 5
@@ -93,4 +93,5 @@ sub = fig.add_subplot(224)
 sub.set_title('Random partitions')
 sub.set_ylim([y_min, y_max])
 
+fig.savefig('./img/clustering.png', dpi=200)
 plt.show()

@@ -3,6 +3,9 @@ import numpy as np
 
 class DatasetGenerator():
 
+    def __init__(self):
+        pass
+
     def ring_dataset(self, center,  small_radius, big_radius, num=1000, std=0.1):
         theta = np.linspace(0, 2 * np.pi, num)
         r = np.random.rand(num) * (big_radius - small_radius) + small_radius
