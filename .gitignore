@@ -21,6 +21,7 @@
 *.mtc1
 *.out
 *.synctex.gz
+*.p
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

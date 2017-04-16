@@ -1,10 +1,10 @@
-PWD /home/adam/git/PRIML-Solutions/assignment 1
+PWD /home/adam/git/PRIML-Solutions/assignment 1/tex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/adam/git/PRIML-Solutions/assignment 1/task_2.tex
-OUTPUT /home/adam/git/PRIML-Solutions/assignment 1/task_2.log
+INPUT /home/adam/git/PRIML-Solutions/assignment 1/tex/task_2.tex
+OUTPUT /home/adam/git/PRIML-Solutions/assignment 1/tex/task_2.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -59,9 +59,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /home/adam/git/PRIML-Solutions/assignment 1/task_2.aux
-INPUT /home/adam/git/PRIML-Solutions/assignment 1/task_2.aux
-OUTPUT /home/adam/git/PRIML-Solutions/assignment 1/task_2.aux
+INPUT /home/adam/git/PRIML-Solutions/assignment 1/tex/task_2.aux
+INPUT /home/adam/git/PRIML-Solutions/assignment 1/tex/task_2.aux
+OUTPUT /home/adam/git/PRIML-Solutions/assignment 1/tex/task_2.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
@@ -84,11 +84,11 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /home/adam/git/PRIML-Solutions/assignment 1/img/cnn.png
-INPUT /home/adam/git/PRIML-Solutions/assignment 1/img/cnn.png
-OUTPUT /home/adam/git/PRIML-Solutions/assignment 1/task_2.pdf
-INPUT /home/adam/git/PRIML-Solutions/assignment 1/img/cnn.png
+INPUT /home/adam/git/PRIML-Solutions/assignment 1/tex/../img/cnn.png
+INPUT ../img/cnn.png
+OUTPUT /home/adam/git/PRIML-Solutions/assignment 1/tex/task_2.pdf
+INPUT ../img/cnn.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /home/adam/git/PRIML-Solutions/assignment 1/task_2.aux
+INPUT /home/adam/git/PRIML-Solutions/assignment 1/tex/task_2.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr10.pfb
